@@ -20,7 +20,8 @@ export default defineConfig(({mode}) => {
             },
         },
         build: {
-            outDir: path.resolve(__dirname, `${appRoot}/dist/`),
+            // outDir: path.resolve(__dirname, `${appRoot}/dist/`),
+            outDir: 'dist',
             emptyOutDir: true,
         },
         server: {
